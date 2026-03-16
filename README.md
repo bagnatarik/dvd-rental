@@ -14,7 +14,7 @@ Analyse exploratoire des locations et revenus d'une entreprise de location de fi
 - Quels sont les meilleurs clients de l'entreprise ?
 - Quel est l'écart entre le client ayant le plus de location et le client ayant le moins de location ?
 - Quelle est la durée moyenne de location par film ?
-- Quel est le chiffre d'affaires par mois ? Il y a t'il une différence significative entre deux mois ?
+- Quel est le chiffre d'affaires par mois ? Y a t'il une différence significative entre deux mois ?
 
 ---
 
