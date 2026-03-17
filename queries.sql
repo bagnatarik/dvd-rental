@@ -64,10 +64,11 @@ GROUP BY f.film_id, f.title
 ORDER BY total_amount DESC
 LIMIT 10;
 
--- 7. Top 5 des staff qui génèrent le plus de revenus
+-- 7. Le staff qui génère le plus de revenus
 SELECT s.staff_id, s.first_name, s.last_name, 
-       SUM(p.amount) AS revenu_genere,
+       SUM(p.amount) AS revenu_genere
 FROM payment AS p 
 INNER JOIN staff AS s ON p.staff_id = s.staff_id
 GROUP BY s.staff_id, s.first_name, s.last_name
-ORDER BY revenu_genere DESC;
+ORDER BY revenu_genere DESC
+LIMIT 5;
